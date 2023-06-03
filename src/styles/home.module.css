@@ -1,0 +1,1189 @@
+.container{
+    width: 100%;
+    height: auto;
+    min-height: calc(100vh - 125px);
+    background: white;
+}
+
+.joinTeam{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: var(--second-color);
+}
+
+.joinTeam .header{
+    text-align: center;
+    color: white;
+    font-family: 'Proxima Nova';
+    font-size: 22px;
+}
+
+.here{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Proxima Nova';
+    cursor: pointer;
+    text-decoration: underline white;
+    /* border-bottom: 1px solid white; */
+}
+
+.boxContainer1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/img/two_Donuts.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.boxContainer1 .firstHeader{
+    text-align: center;
+    color: var(--first-color);
+}
+
+.boxContainer1 .rewards{
+    text-align: center;
+    color: var(--second-color);
+}
+
+.boxContainer1 .secondHeader{
+    text-align: center;
+    color: var(--third-color);
+}
+
+
+.boxContainer2{
+    width: 100%;
+    height: calc(100vh - 125px);
+    border-bottom: 1px solid rgb(220, 220, 220);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContainer2 .boxes{
+    width: 75%;
+    height: 65%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxContainer2 .box{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxContainer2 .img{
+    width: 60%;
+    height: 55%;
+    object-fit: fill;
+}
+
+.boxContainer2 .img:hover{
+    scale: 1.1;
+    transition: scale .5s ease-in-out;
+}
+
+.boxContainer2 .header{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    line-height: 24px;
+    font-family: 'DunkinSansExtraBold';
+    color: var(--third-color);
+}
+
+.boxContainer2 .description{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: var(--third-color);
+}
+
+.boxContainer2 .buttons{
+    width: 65%;
+    height: 10%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContainer2 .signUp{
+    width: 25%;
+    height: 85%;
+    border: none;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    background: var(--second-color);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.boxContainer2 .learnMore{
+    width: 25%;
+    height: 85%;
+    border: 1px solid var(--third-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    background: white;
+    color: var(--third-color);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.boxContainer3{
+    /* width: 100%; */
+    height: 100vh;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxContainer3 .box1{
+    width: 50%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boxContainer3 .header1{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContainer3 .logo{
+    width: 50%;
+    height: 35%;
+    object-fit: fill;
+    object-position: center;
+}
+
+.boxContainer3 .doneEasy{
+    text-align: center;
+    font-size: 55px;
+    color: var(--third-color);
+}
+
+.boxContainer3 .header2{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    color: var(--third-color);
+}
+
+.boxContainer3 .ul{
+    width: 70%;
+    height: auto;
+}
+
+.boxContainer3 .li{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Proxima Nova';
+}
+    
+.boxContainer3 .buttons{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContainer3 .button{
+    width: 27%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.boxContainer3 .box2{
+    width: 50%;
+    height: 90%;
+    object-fit: fill;
+    object-position: center;
+}
+
+.boxContainer4{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background: #F8F4F1;
+}
+
+.boxContainer4 .box1{
+    width: 50%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+
+.boxContainer4 .box2{
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContainer4 .header1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: var(--second-color);
+}
+
+.boxContainer4 .header2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: var(--first-color);
+    margin-bottom: 20px;
+}
+
+.boxContainer4 .quotationMark{
+    color: var(--second-color);
+}
+
+.boxContainer4 .header3{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    color: var(--third-color);
+    margin-bottom:20px;
+}
+
+.boxContainer4 .button{
+    width: 200px;
+    height: 42px !important;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background: var(--second-color);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.boxContainer4 .description{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #747474;
+}
+
+.boxContainer5{
+    width: 100%;
+    height: 60vh;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContainer5 .box{
+    width: 29%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgb(220, 220, 220);
+    cursor: pointer;
+}
+
+.boxContainer5 .box:first-child{
+    width: 40%;
+    border: none;
+}
+
+.boxContainer5 .header1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 600;
+    color: var(--third-color);
+    margin-bottom: 10px;
+}
+
+.boxContainer5 .header2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 800;
+    color: var(--second-color);
+    margin-bottom: 10px;
+}
+
+.boxContainer5 .img{
+    width: 50%;
+    height: 60%;
+    object-fit: fill;
+    object-position: center;
+}
+
+.boxContainer5 .box:hover .img{
+    scale: 1.1;
+    transition: scale .5s ease-in-out;
+}
+
+
+.boxContainer6{
+    width: 100%;
+    height: 50vh;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContainer6 .box1{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContainer6 .header{
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--third-color);
+}
+
+.boxContainer6 .description{
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: var(--third-color);
+}
+
+.boxContainer6 .button{
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background: var(--second-color);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.boxContainer6 .box2{
+    width: 40%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+
+
+.boxContainer7{
+    width: 100%;
+    height: calc(100vh - 125px);
+    border-bottom: 1px solid rgb(220, 220, 220);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.boxContainer7 .box1{
+    width: 60%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+}
+
+.boxContainer7 .box2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContainer7 .header1{
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    color: var(--third-color);
+}
+
+.boxContainer7 .header2{
+    width: auto;
+    height: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: var(--third-color);
+}
+
+.boxContainer7 .button{
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background: var(--second-color);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+.footer{
+    width: 100%;
+    height: 70vh;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .box1{
+    width: 65%;
+    height: 35%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .smallBox1{
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer .header{
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+    text-align: left;
+    font-weight: 600;
+    color: var(--third-color);
+}
+
+.footer .links{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer .link{
+    width: 25%;
+    height: 45%;
+    text-align: left;
+    color: var(--third-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer .smallBox2{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer .header2{
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: left;
+    color: var(--third-color);
+}
+
+.footer .icons{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer .icon{
+    width: 30px;
+    height: 30px;
+    margin: 0px 20px 20px 0px;
+    object-fit: fill;
+    object-position: center;
+}
+
+.footer .box2{
+    width: 65%;
+    height: 30%;
+    border-bottom: 1px solid rgb(210, 210, 210);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer .item1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .line{
+    height: 1px;
+    flex: 1;
+    background: rgb(180, 180, 180);
+}
+
+.footer .heading{
+    text-align: center;
+    color: var(--third-color);
+    padding: 0px 30px;
+}
+
+.footer .item2{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .img{
+    width: 15%;
+    height: 80%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.footer .box3{
+    width: 65%;
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .box3 .links{
+    width: 100%;
+    height:60%;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer .box3 .link{
+    width: 25%;
+    height: 45%;
+    text-align: center;
+    color: var(--third-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.credit{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buskinCredit{
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: var(--third-color);
+}
+
+.dunkinLink{
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    color: var(--second-color);
+    cursor: pointer;
+}
+
+.salamaCredit{
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: var(--third-color);
+}
+
+.salamaLink{
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    color: var(--first-color);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1024px){
+    .boxContainer1{
+        background: url(../assets/img/two_Donuts3.png);
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .boxContainer1{
+        background: url(../assets/img/two_Donuts3.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .boxContainer1 .firstHeader, .boxContainer1 .rewards{
+        font-size: 40px;
+    }
+
+    
+    .boxContainer1 .secondHeader{
+        font-size: 45px;
+    }
+
+    .boxContainer2 .boxes{
+        width: 90%;
+        height: 80%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .boxContainer2 .box{
+        width: 32%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .boxContainer2 .img{
+        width: 80%;
+        height: 55%;
+        object-fit: fill;
+    }
+
+    .boxContainer2 .header{
+        margin-bottom: 20px;
+    }
+
+    .boxContainer2 .signUp,.boxContainer2 .learnMore{
+        width: 35%;
+    }
+
+    .boxContainer3 .box1{
+        height: 90%;
+    }
+
+    .boxContainer3 .doneEasy{
+        font-size: 40px;
+    }
+
+    .boxContainer3 .buttons{
+        height: 8%;
+    }
+
+    .boxContainer4 .header1, .boxContainer4 .header2{
+        font-size: 40px;
+    }
+
+    .boxContainer5 .img{
+        width: 70%;
+    }
+
+    .boxContainer5 .header2{
+        font-size: 20px;
+    }
+
+    .boxContainer6 .header{
+        font-size: 40px;
+    }
+
+    .boxContainer7 .header1{
+        font-size: 40px;
+    }
+
+    .footer .box1, .footer .box2, .footer .box3{
+        width: 85%;
+    }
+
+    .footer .box2{
+        height: 28%;
+    }
+
+    .footer .box3{
+        height: 35%;
+    }
+
+    .footer .item2{
+        justify-content: space-evenly;
+    }
+
+    .footer .box3 .link{
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width: 425px){
+
+    .boxContainer1{
+        height: 20vh;
+        margin-top: 20px;
+        background: url(../assets/img/two_Donuts5.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .boxContainer1 .firstHeader, .boxContainer1 .rewards{
+        font-size: 30px;
+    }
+    
+    .boxContainer1 .secondHeader{
+        font-size: 35px;
+    }
+
+    .boxContainer2{
+        height: auto;
+    }
+
+    .boxContainer2 .boxes{
+        width: 75%;
+        height: auto;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .boxContainer2 .box{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .boxContainer2 .buttons{
+        width: 90%;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .boxContainer2 .signUp,.boxContainer2 .learnMore{
+        width: 35%;
+    }
+
+    .boxContainer3{
+        height: auto;
+        display: flex;
+        padding: 20px 0px;
+        margin-left: 0px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .boxContainer3 .box1{
+        width: 90%;
+        height: 80vh;
+    }
+
+    .boxContainer3 .box2{
+        width: 90%;
+        height: 50vh;
+        margin-left: 50px;
+    }
+
+    .boxContainer4{
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-bottom: 20px;
+    }
+
+    .boxContainer4 .box1{
+        width: 90%;
+        height: 40vh;
+    }
+
+    .boxContainer4 .box2{
+        width: 90%;
+        height: auto;
+    }
+
+    .boxContainer5{
+        height: auto;
+        flex-direction: column;
+        border-bottom: 1px solid rgb(200, 200, 200);
+    }
+
+    .boxContainer5 .box{
+        width: 90% !important;
+        margin: 20px 0px;
+        border: none;
+        border-bottom: 1px solid rgb(220, 220, 220) !important;
+    }
+
+    .boxContainer5 .box:last-child{
+        border-bottom: none !important;
+    }
+
+    .boxContainer5 .header2{
+        margin-bottom: 0;
+    }
+
+    .boxContainer6{
+        height: 70vh;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+    .boxContainer6 .box1, .boxContainer6 .description{
+        width: 90%;
+    }
+
+    .boxContainer6 .header{
+        font-size: 30px;
+    }
+
+    .boxContainer6 .button{
+        width: 220px;
+        font-size: 14px;
+    }
+
+    .boxContainer6 .box2{
+        width: 90%;
+    }
+
+    .boxContainer7{
+        height: auto;
+        padding: 20px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxContainer7 .box1{
+        width: 90%;
+    }
+    
+    .boxContainer7 .box2{
+        width: 90%;
+    }
+    
+    .boxContainer7 .header1{
+        width: 90%;
+        font-size: 30px;
+    }
+    
+    .boxContainer7 .header2{
+        width: 90%;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+    
+    .boxContainer7 .button{
+        width: 170px;
+        font-size: 14px;
+    }
+
+    .footer{
+        height: auto;
+        padding: 20px 0px;
+    }
+    
+    .footer .box1{
+        width: 95%;
+        height: auto;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .footer .smallBox1{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .footer .header{
+        width: auto;
+        height: auto;
+        margin-bottom: 15px;
+        text-align: left;
+        font-weight: 600;
+        color: var(--third-color);
+    }
+    
+    .footer .links{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .footer .link{
+        width: 25%;
+        height: auto;
+        margin-bottom: 10px;
+        text-align: left;
+        color: var(--third-color);
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .footer .smallBox2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .footer .header2{
+        width: auto;
+        height: auto;
+        margin-bottom: 15px;
+        font-weight: 600;
+        text-align: left;
+        color: var(--third-color);
+    }
+    
+    .footer .icons{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .footer .icon{
+        width: 10%;
+        height: auto;
+        margin: 0;
+        object-fit: fill;
+        object-position: center;
+    }
+    
+    .footer .box2{
+        width: 95%;
+        height: auto;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(210, 210, 210);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .footer .item1{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer .line{
+        height: 1px;
+        flex: 1;
+        background: rgb(180, 180, 180);
+    }
+    
+    .footer .heading{
+        text-align: center;
+        color: var(--third-color);
+        padding: 0px 15px;
+    }
+    
+    .footer .item2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .footer .img{
+        width: 25%;
+        height: auto;
+        object-fit: fill;
+        object-position: center;
+    }
+    
+    .footer .box3{
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer .box3 .links{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        border-bottom: 1px solid rgb(100, 100, 100);
+        display: flex;
+        flex-flow: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .footer .box3 .link{
+        width: 22%;
+        height: auto;
+        margin: 10px 10px 0px 0px;
+        text-align: center;
+        color: var(--third-color);
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    .credit{
+        width: 100%;
+        height: auto;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .buskinCredit{
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+        text-align: center;
+        color: var(--third-color);
+    }
+    
+    .dunkinLink{
+        font-family: 'Proxima Nova';
+        font-weight: 600;
+        color: var(--second-color);
+        cursor: pointer;
+    }
+    
+    .salamaCredit{
+        width: auto;
+        height: auto;
+        text-align: center;
+        color: var(--third-color);
+    }
+    
+    .salamaLink{
+        font-family: 'Proxima Nova';
+        font-weight: 600;
+        color: var(--first-color);
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+    .boxContainer1{
+        height: 20vh;
+        margin-top: 20px;
+        background: url(../assets/img/two_Donuts4.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
